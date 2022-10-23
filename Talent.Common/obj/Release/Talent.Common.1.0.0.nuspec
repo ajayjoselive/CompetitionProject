@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Talent.Common</id>
+    <version>1.0.0</version>
+    <authors>Talent.Common</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.0">
+        <dependency id="AWSSDK.Core" version="3.3.24" exclude="Build,Analyzers" />
+        <dependency id="AWSSDK.S3" version="3.3.18.3" exclude="Build,Analyzers" />
+        <dependency id="AWSSDK.SecurityToken" version="3.3.4.4" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore" version="2.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Authentication.JwtBearer" version="2.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Hosting" version="2.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.0.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.IdentityModel.Tokens" version="5.2.1" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.5.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="RawRabbit" version="2.0.0-beta9" exclude="Build,Analyzers" />
+        <dependency id="RawRabbit.DependencyInjection.ServiceCollection" version="2.0.0-beta9" exclude="Build,Analyzers" />
+        <dependency id="RawRabbit.Operations.Publish" version="2.0.0-beta9" exclude="Build,Analyzers" />
+        <dependency id="RawRabbit.Operations.Subscribe" version="2.0.0-beta9" exclude="Build,Analyzers" />
+        <dependency id="Sendgrid" version="9.10.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\projects\IndustryConnect\CompetitionProject\Talent.Common\bin\Release\netcoreapp2.0\Talent.Common.dll" target="lib\netcoreapp2.0\Talent.Common.dll" />
+  </files>
+</package>
